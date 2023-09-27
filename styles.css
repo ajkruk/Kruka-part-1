@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+Header {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+h1 {
+    padding: 0;
+}
+
+.blue {
+    color: #20a8b4;
+    padding-left: 15px;
+}
+
+.orange {
+    color: #ff5c0f;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 15px;
+    
+
+}
+
+li {
+    padding: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #ff5c0f;
+}
+
+button {
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #20a8b4;
+    color: #fff;
+    outline: none;
+    border: #20a8b4;
+}
+
+button a {
+    color: #fff;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+.bottom {
+    padding: 75px 15px 15px 15px;
+}
+
+img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+
+button {
+    width: auto;
+
+}
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 125px;
+    }
+
+    .bottom {
+        padding-left: 25px;
+
+    }
+
+    img {
+        display: block;
+        height: 400px;
+        padding: 0 100px 0 0;
+    }
+
+
+    .contactButton {
+        float: right;
+        display: inline;
+    }
+    a:hover {
+        color: #ff5c0f;
+}
+    button:hover {
+    background-color: #ff5c0f;
+}
+
+}
